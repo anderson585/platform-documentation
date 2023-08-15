@@ -1,4 +1,5 @@
----
+Lua Example code
+print("Hello World") // prints “Hello Lua Developer's” string--- [Lua Introduction]([https://lua.org](https://mrexamples.com/lua/lua-introduction/))
 id: scripting_beginner
 name: Scripting in Core (Beginner)
 title: Scripting in Core (Beginner)
