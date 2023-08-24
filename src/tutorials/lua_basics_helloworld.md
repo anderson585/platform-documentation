@@ -120,6 +120,23 @@ end
 !!! note
     Putting `--` at the beginning of a line makes that line a *comment*, which means it is ignored by the computer. Comments are used to help humans understand what a piece of code is doing.
 
+    **Lua Functions Syntax**
+    
+The syntax of a Lua function is relatively straightforward.
+
+To define a function, use the function keyword, followed by the function name, parameters (if any), and the code block enclosed in end.
+
+Here’s an example of a simple Lua function:
+
+function greet(name)
+print("Hello, " .. name .. "!")
+end
+In the example above, we’ve defined a function named greet that takes a single parameter, name.
+
+The code block enclosed in end simply concatenates the string “Hello,” with the name parameter and an exclamation mark, and prints the result to the console.
+
+<ref>https://mrexamples.com/lua/lua-functions/</ref>
+
 ### Call the Function
 
 If you save and run this code, nothing will happen.
